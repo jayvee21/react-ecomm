@@ -13,7 +13,7 @@ class App extends Component{
         <Header />
 
         <Switch>
-          <Route exact path = "/" component={Landing} />
+          <Route exact path = "/react-ecomm/" component={Landing} />
         </Switch>
 
         <Footer />
