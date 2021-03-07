@@ -6,8 +6,8 @@ const Header = () => {
             <div className="wrapper">
                 <nav className="nav__links">
                     <ul>
-                        <li> <Link to="/"> Home </Link> </li>
-                        <li> <Link to="/discover"> Discover </Link> </li>
+                        <li> <Link to="/react-ecomm/"> Home </Link> </li>
+                        <li> <Link to="/react-ecomm/discover"> Discover </Link> </li>
                     </ul>
                 </nav>
                 <div className="app__name">
