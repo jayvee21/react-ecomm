@@ -1,35 +1,39 @@
 header {
     background-color: var(--primary);
-    align-items: center;
     color: #fff;
+}
+
+header .wrapper {
+    align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 14px;
-
+    width: 92%;
+    margin: auto;
 }
 
-header .nav__links ul{
+header .wrapper .nav__links ul{
     list-style-type: none;
 }
 
 
-header .nav__links ul li{
+header .wrapper .nav__links ul li{
     display: inline-block;
     margin-right: 20px;
 }
 
-header .nav__links ul a:hover{
+header .wrapper .nav__links ul a:hover{
     color: var(--yellow);
     transition: 0.3s ease 0s;
 }
 
-header .app__name {
+header .wrapper .app__name {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 20px;
 }
 
-header .app__name .ecomm{
+header .wrapper .app__name .ecomm{
     color: var(--yellow);
 }
 

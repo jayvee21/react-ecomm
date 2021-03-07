@@ -1,6 +1,6 @@
 const Landing = () => {
     return (
-        <div style={{ height: '80vh' }}> landing update</div>
+        <div> landing update</div>
     )
 }
 export default Landing;
